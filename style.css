@@ -1,0 +1,239 @@
+
+  /* Buttons */
+  .btn-primary {
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: white;
+    font-weight: bold;
+  }
+  /* .btn-primary:hover */
+
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    max-height: 151px;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
+    
+    color: #4E47FF;
+    font-size: 99px 51px;
+  }
+  .nav-title {
+    font-size: 34px;
+    
+  }
+  
+  /* Banner */
+  header{
+    background-image: url(Hero-bg.png);
+  }
+  .banner {
+    display: flex;
+    text-align: center;
+   
+    justify-content: space-between;
+    
+    padding: 309px 267.5px 237px;
+    
+  }
+  .banner-content h2 {
+
+    font-size: 48px;
+    text-align: center;
+    
+    max-width: 905px;
+  }
+  .banner-content button {
+    margin-top: 20px;
+    
+  }
+  
+
+  
+  /* Action */
+  .action {
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    padding: 116px 160px 140px;
+    /* max-width: 1140px; */
+  }
+  .action-title {
+    max-width: 517px;
+    /* width: 517px; */
+    /* padding: 62.5px 623px 62.5px 0px; */
+    padding-top: 62.5px;
+    justify-content: space-around;
+  }
+  .action-text h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #252432;
+  }
+  .action-text p {
+    text-align: left;
+    font-size: 30px;
+    color: #252432;
+    max-width: 517px;
+  }
+  .action-img{
+    max-width: 403px;
+    border-radius: 48px;
+  }
+  .btn-preview{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px ;
+    max-width: 229px;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+  }
+
+  
+  /* Users Section */
+  .users {
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 60%;
+    max-height: 50%;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: 150px;
+    
+  }
+  .users h2{
+    text-align: center;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+  }
+  .stats div {
+    
+    /* padding: 20px; */
+    /* margin-top: 10px; */
+    text-align: center;
+  }
+  .stats div h3{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  
+  /* Feedback */
+  .feedback {
+    padding: 60px;
+  }
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Testimonial section */
+.feedback {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f1f5fd;
+}
+
+.feedback h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #2c2c2c;
+}
+
+/* Testimonial card layout */
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedback-review {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+ 
+
+/* Stars */
+.stars {
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+/* Reviewer section */
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reviewer .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+  
+  /* Contact */
+  .contact {
+    padding: 60px 80px;
+    display: flex;
+  }
+  form {
+    /* max-width: 600px; */
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  form input, form textarea {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  .contact-title{
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  
+  /* Footer */
+  footer{
+    align-items: center;
+  }
+  footer ul{
+    display: flex;
+    align-items: center;
+  }
+  footer ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
